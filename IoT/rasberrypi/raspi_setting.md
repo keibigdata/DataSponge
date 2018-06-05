@@ -18,6 +18,16 @@ dns-nameservers 192.168.1.2
   
 ## 리파지터리 변경하기  
   
+$ sudo vi /etc/apt/sources.list  
+~~~
+#deb http://mirrordirector.raspbian.org/raspbian/ jessie main contrib non-free rpi
+deb http://ftp.kaist.ac.kr/raspbian/raspbian/ jessie main contrib non-free rpi
+
+# Uncomment line below then 'apt-get update' to enable 'apt-get source'
+#deb-src http://archive.raspbian.org/raspbian/ jessie main contrib non-free rpi
+~~~
+  
+  
 $ sudo apt-get update
 ~~~
 Get:1 http://ftp.kaist.ac.kr jessie InRelease [14.9 kB]
