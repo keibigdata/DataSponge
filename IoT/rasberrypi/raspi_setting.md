@@ -1,6 +1,6 @@
 ## 네트워크 구성하기  
 
-pi@iot02kei:~$ cat /etc/network/interfaces
+$ vi /etc/network/interfaces
 ~~~
 ......
 #iface eth0 inet manual
