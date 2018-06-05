@@ -18,4 +18,10 @@ Tue Jun  5 14:40:24.528 [initandlisten]
 ~~~
 > show dbs
 local   0.03125GB
+> db
+test
+> use PMDB
+switched to db PMDB
+> db
+PMDB
 ~~~
