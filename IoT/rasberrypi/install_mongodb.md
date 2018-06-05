@@ -85,4 +85,18 @@ Setting up mongodb (1:2.4.10-5+deb8u1) ...
 Processing triggers for libc-bin (2.19-18+deb8u7) ...
 Processing triggers for systemd (215-17+deb8u6) ...
 ~~~
+$ sudo service mongodb start  
+$ sudo service mongodb status  
+~~~
+[0m mongodb.service - An object/document-oriented database
+   Loaded: loaded (/lib/systemd/system/mongodb.service; enabled)
+   Active: active (running) since Tue 2018-06-05 13:39:04 UTC; 1min 37s ago
+     Docs: man:mongod(1)
+ Main PID: 20827 (mongod)
+   CGroup: /system.slice/mongodb.service
+           붴20827 /usr/bin/mongod --config /etc/mongodb.conf
 
+Jun 05 13:39:04 iot02kei systemd[1]: Started An object/document-oriented database.
+Jun 05 13:39:04 iot02kei mongod[20827]: all output going to: /var/log/mongodb/mongodb.log
+Jun 05 13:40:37 iot02kei systemd[1]: Started An object/document-oriented database.
+~~~
