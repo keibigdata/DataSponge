@@ -65,3 +65,7 @@ $ sudo vi /etc/profile
 TZ='Asia/Seoul'; export TZ
 ~~~
 $ sudo init 6  
+$ date  
+~~~
+Thu  7 Jun 03:11:39 KST 2018
+~~~
