@@ -59,3 +59,9 @@ Here is that TZ value again, this time on standard output so that you
 can use the /usr/bin/tzselect command in shell scripts:
 Asia/Seoul
 ~~~
+$ sudo vi /etc/profile  
+~~~
+......
+TZ='Asia/Seoul'; export TZ
+~~~
+$ sudo init 6  
