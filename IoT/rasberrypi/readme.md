@@ -5,7 +5,8 @@
   
   
 ### 라즈비안 설치
-- 미러 변경  
+- 소프트웨어 저장소(Repository) 변경 : [다른 저장소 확인](https://www.raspbian.org/RaspbianMirrors/)  
+KAIST가 대체로 사용량이 많아 부경대(Harukasan)로 선택  
 
 ### 주피터 노트북 설치
 - PIP 리파지터리 변경(미러 변경) - [참고](http://greenfishblog.tistory.com/255)  
