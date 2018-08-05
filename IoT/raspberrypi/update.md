@@ -50,5 +50,12 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=29&t=197689
  *** Syncing changes to disk
  *** If no errors appeared, your firmware was successfully updated to efba34cc68065768250cff56873e325fc2fe180c
  *** A reboot is needed to activate the new firmware
- ~~~
- - 라즈비안 재시작 : sudo reboot  
+~~~
+- 라즈비안 재시작 : sudo reboot  
+(재시작 후)  
+- 라즈비안 정보 확인 : uname -a  
+~~~
+Linux raspberrypi 4.14.59-v7+ #1131 SMP Thu Aug 2 15:57:42 BST 2018 armv7l GNU/Linux
+~~~
+- 소프트웨어 저장소 정보 및 소프트웨어 업데이트 : sudo apt-get update && sudo apt-get upgrade  
+- 라즈비안 재시작 : sudo reboot  
