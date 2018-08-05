@@ -16,3 +16,6 @@ KAIST가 대체로 사용량이 많아 부경대(Harukasan)로 선택
 index-url=http://ftp.daumkakao.com/pypi/simple
 trusted-host=ftp.daumkakao.com
 ~~~
+  
+### 라즈베리파이 업데이트
+-  
