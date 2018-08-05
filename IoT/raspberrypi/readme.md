@@ -19,3 +19,6 @@ trusted-host=ftp.daumkakao.com
   
 ### [라즈베리파이 업데이트](./update.md)
 -  
+  
+### [한글 사용](./hangul.md)  
+- 
