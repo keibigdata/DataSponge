@@ -8,6 +8,7 @@
 - [라즈비안 다운로드](https://www.raspberrypi.org/downloads/raspbian/) : Raspbian Stretch with Desktop 4.14(2018-06-27)  
 - [설치 전 마이크로SD카드에 넣기](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) : [윈도우용 Win32DiskImager](https://www.raspberrypi.org/documentation/installation/installing-images/windows.md)  
 - 마이크로SD카드 꼽고 부팅하면 바로 부팅됨  
+- 네트워크 구성(무선랜 활성화)  
 - 소프트웨어 저장소(Repository) 변경 : [다른 저장소 확인](https://www.raspbian.org/RaspbianMirrors/)  
 KAIST가 대체로 사용량이 많아 부경대(Harukasan)로 선택  
 - 한국 미러  
