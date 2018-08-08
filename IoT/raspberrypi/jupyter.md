@@ -59,5 +59,5 @@ vi jupyter_notebook_config.py
 ~~~
 c.NotebookApp.certfile = '/home/pi/.jupyter/jupyter.pem'
 ~~~
-- 주피터 노트북 실행 : jupyter notebook
-![주피터 노트북 로그인 페이지](./imgs/loginJupyter.jpg)
+- 주피터 노트북 실행 : jupyter notebook  
+![주피터 노트북 로그인 페이지](./imgs/loginJupyter.jpg)  
