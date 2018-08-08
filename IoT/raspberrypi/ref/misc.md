@@ -1,1 +1,2 @@
 - [Jupyter Notebook 설치하기](https://m.blog.naver.com/samsjang/220758501873)  
+- [jupyter 주피터](https://sites.google.com/site/raspberrypieducation/programmingtools/python/jupyter)  
