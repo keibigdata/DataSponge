@@ -2,3 +2,6 @@
 - [jupyter 주피터](https://sites.google.com/site/raspberrypieducation/programmingtools/python/jupyter)  
 - [라즈베리파이 최선 업데이트](http://www.modulabs.co.kr/ModuIoT/10961)  
 - [Solar Powering your Raspberry Pi!](https://www.rs-online.com/designspark/solar-powering-your-raspberry-pi)  
+- [간단히 알아보는 OpenSSL 암호화/복호화](http://www.myservlab.com/176)  
+- [SSL 패스워드 삭제 하기](http://faq.hostway.co.kr/Linux_WEB/3226)  
+- [SSL 인증서 개인키 비밀번호 없애기](http://dev.meye.net/entry/SSL-인증서-개인키-비밀번호-없애기)  
