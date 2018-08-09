@@ -1,3 +1,4 @@
 - [Jupyter Notebook 설치하기](https://m.blog.naver.com/samsjang/220758501873)  
 - [jupyter 주피터](https://sites.google.com/site/raspberrypieducation/programmingtools/python/jupyter)  
 - [라즈베리파이 최선 업데이트](http://www.modulabs.co.kr/ModuIoT/10961)  
+- [Solar Powering your Raspberry Pi!](https://www.rs-online.com/designspark/solar-powering-your-raspberry-pi)  
