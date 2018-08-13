@@ -1,8 +1,10 @@
-### 윈도우에서 코엔엘피 
+### 윈도우에서 코엔엘피(KoNLPy) 설치  
+- 파이썬 인스톨러(PIP) 업데이트
 ~~~
 (base) C:\Windows\system32>pip install --upgrade pip
 Requirement already up-to-date: pip in e:\program\anaconda3\lib\site-packages (18.0)
 ~~~
+- JPype1 설치하기(아래와 같이 오류가 난다면 -> 요기)
 ~~~
 (base) C:\Windows\system32>pip install JPype1
 Collecting JPype1
@@ -121,4 +123,16 @@ Installing collected packages: JPype1
 Command "e:\program\anaconda3\python.exe -u -c "import setuptools, tokenize;__file__='C:\\Users\\b3nn9\\AppData\\Local\\Temp\\pip-install-7sqtu459\\JPype1\\setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n',
 '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record C:\Users\b3nn9\AppData\Local\Temp\pip-record-6cr5tk5k\install-record.txt --single-version-externally-managed --compile" failed with error code 1 in C:\Users\b3nn9\AppDa
 ta\Local\Temp\pip-install-7sqtu459\JPype1\
+~~~
+~~~
+(base) C:\Windows\system32>pip install JPype1
+Collecting JPype1
+  Using cached https://files.pythonhosted.org/packages/c4/4b/60a3e63d51714d4d7ef1b1efdf84315d118a0a80a5b085bb52a7e2428cdc/JPype1-0.6.3.tar.gz
+Building wheels for collected packages: JPype1
+  Running setup.py bdist_wheel for JPype1 ... done
+  Stored in directory: C:\Users\b3nn9\AppData\Local\pip\Cache\wheels\0e\2b\e8\c0b818ac4b3d35104d35e48cdc7afe27fc06ea277f
+eed2831a
+Successfully built JPype1
+Installing collected packages: JPype1
+Successfully installed JPype1-0.6.3
 ~~~
