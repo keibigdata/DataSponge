@@ -4,13 +4,15 @@ Data source's parm for Environmental Data Archive :)
 2018년부터 2020년까지의 수집-저장 사례를 중심으로  
 플랫폼을 설계 및 (가)구축을 목표로 진행하고 있습니다.  
   
-## 데스(DataSponge)
-1. 환경연구에 활용한 정형, 반정형, 비정형를 대상으로 하며,  
-2. 
+## 데스(DataSponge)는......
+1. 환경 연구에 활용할 데이터(정형, 반정형, 비정형)를 대상으로 하며,  
+2. 데이터 수집-저장 자동화, 오류 처리 및 로깅, 오류 추정 등 최적의 데이터 처리를 위한 플랫폼입니다.
+  
 ### 정형
 1. AirKorea(http://www.airkorea.or.kr/) - 한국환경공단  
 2. 기상자료개방포털(https://data.kma.go.kr/) - 기상청  
 3. [한강홍수통제소](http://www.hrfco.go.kr/main.do)  
+  
 ### 반정형  
 1. 공간정보  
 2. 통계  
