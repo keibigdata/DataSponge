@@ -136,3 +136,12 @@ Successfully built JPype1
 Installing collected packages: JPype1
 Successfully installed JPype1-0.6.3
 ~~~
+- 코엔엘파이(koNLPy) 설치
+~~~
+(base) C:\Windows\system32>pip install konlpy
+Collecting konlpy
+  Using cached https://files.pythonhosted.org/packages/e5/3d/4e983cd98d87b50b2ab0387d73fa946f745aa8164e8888a714d5129f9765/konlpy-0.5.1-py2.py3-none-any.whl
+Requirement already satisfied: JPype1>=0.5.7 in e:\program\anaconda3\lib\site-packages (from konlpy) (0.6.3)
+Installing collected packages: konlpy
+Successfully installed konlpy-0.5.1
+~~~
