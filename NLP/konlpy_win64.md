@@ -1,4 +1,4 @@
-### 윈도우에서 코엔엘피(KoNLPy) 설치  
+### 윈도우에서 코엔엘(KoNLPy) 설치  
 - 파이썬 인스톨러(PIP) 업데이트
 ~~~
 (base) C:\Windows\system32>pip install --upgrade pip
