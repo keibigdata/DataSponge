@@ -1,3 +1,8 @@
+## NLP(Natural Language Processing)
+### LDA
+- [Latent Dirichlet Allocation(LDA) with Python](https://rstudio-pubs-static.s3.amazonaws.com/79360_850b2a69980c4488b1db95987a24867a.html)  
+- [구글에 "rstudio-pubs-static.s3.amazonaws.com"을 검색해 보시라~](https://www.google.co.kr/search?ei=ValxW6m9BNfM-Qatpb7oBw&q=rstudio-pubs-static.s3.amazonaws.com&oq=rstudio-pubs-static.s3.amazonaws.com&gs_l=psy-ab.3..35i39k1.94645.120868.0.121579.3.2.1.0.0.0.83.83.1.2.0....0...1.1.64.psy-ab..0.3.192.6...106.50Ds8zuG_CA)
+
 ### NLP reference... :)  
   
   - List of English Stop Words(http://xpo6.com/list-of-english-stop-words/)  
