@@ -7,3 +7,6 @@ mecab-ko-dic 설치 시 참고함(data01에 적용)
   
 ### 코드 변환
 - [인코딩 참고(stackoverflow)](https://stackoverflow.com/questions/22216076/unicodedecodeerror-utf8-codec-cant-decode-byte-0xa5-in-position-0-invalid-s)  
+  
+### 튜닝
+- http://konlpy-ko.readthedocs.io/ko/v0.5.1/api/konlpy/#module-konlpy.jvm
