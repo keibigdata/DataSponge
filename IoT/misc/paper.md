@@ -1,0 +1,2 @@
+- [Conditional Variational Autoencoder for Prediction and Feature Recovery Applied to Intrusion Detection in IoT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5621014/)  
+- 
