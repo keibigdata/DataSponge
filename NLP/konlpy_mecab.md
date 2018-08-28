@@ -6,3 +6,7 @@ root@DataLX01:/usr/local/lib/mecab/dic/mecab-ko-dic# mkdir userdic
 root@DataLX01:/usr/local/lib/mecab/dic/mecab-ko-dic# cd userdic/
 root@DataLX01:/usr/local/lib/mecab/dic/mecab-ko-dic/userdic# vi ko_gov_org.csv
 ~~~
+
+~~~
+건설교통부,,,,NNP,*,F,건설교통부,*,*,*,*,*
+~~~
