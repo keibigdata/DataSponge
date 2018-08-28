@@ -3,7 +3,7 @@
 - Mecab
   
 ### customized KoNLPy
-- 
+- 라이브러리 설치하고
 ~~~
 (base) D:\Data\[데이터]\+라이브러리>pip install customized_konlpy
 Collecting customized_konlpy
@@ -14,3 +14,4 @@ Requirement already satisfied: konlpy>=0.4.4 in d:\programdata\anaconda3\lib\sit
 Installing collected packages: customized-konlpy
 Successfully installed customized-konlpy-0.0.64
 ~~~
+- 
