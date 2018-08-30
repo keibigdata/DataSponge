@@ -102,5 +102,25 @@ Collecting webencodings (from html5lib!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=
   Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
 Installing collected packages: tornado, python-dateutil, decorator, ipython-genutils, traitlets, jupyter-core, pyzmq, jupyter-client, pygments, ptyprocess, pexpect, wcwidth, prompt-toolkit, simplegeneric, pickleshare, backcall, ipython, ipykernel, qtconsole, jsonschema, nbformat, terminado, Send2Trash, mistune, pandocfilters, webencodings, html5lib, bleach, entrypoints, testpath, nbconvert, prometheus-client, notebook, jupyter-console, widgetsnbextension, ipywidgets, jupyter
 Successfully installed Send2Trash-1.5.0 backcall-0.1.0 bleach-2.1.4 decorator-4.3.0 entrypoints-0.2.3 html5lib-1.0.1 ipykernel-4.9.0 ipython-6.5.0 ipython-genutils-0.2.0 ipywidgets-7.4.0 jsonschema-2.6.0 jupyter-1.0.0 jupyter-client-5.2.3 jupyter-console-5.2.0 jupyter-core-4.4.0 mistune-0.8.3 nbconvert-5.3.1 nbformat-4.4.0 notebook-5.6.0 pandocfilters-1.4.2 pexpect-4.6.0 pickleshare-0.7.4 prometheus-client-0.3.1 prompt-toolkit-1.0.15 ptyprocess-0.6.0 pygments-2.2.0 python-dateutil-2.7.3 pyzmq-17.1.2 qtconsole-4.4.1 simplegeneric-0.8.1 terminado-0.8.1 testpath-0.3.1 tornado-5.1 traitlets-4.3.2 wcwidth-0.1.7 webencodings-0.5.1 widgetsnbextension-3.4.0
-pi@IoTBG:~$
+pi@IoTBG:~$ jupyter-notebook
+[I 15:14:59.626 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 15:15:00.899 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 15:15:00.899 NotebookApp] The Jupyter Notebook is running at:
+[I 15:15:00.900 NotebookApp] http://localhost:8888/?token=87eeeabb0a650cf0add447af7730e30eec4e6d2ddc04ebee
+[I 15:15:00.900 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:15:00.901 NotebookApp] No web browser found: could not locate runnable browser.
+[C 15:15:00.902 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=87eeeabb0a650cf0add447af7730e30eec4e6d2ddc04ebee
+^C[I 15:15:06.181 NotebookApp] interrupted
+Serving notebooks from local directory: /home/pi
+0 active kernels
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=87eeeabb0a650cf0add447af7730e30eec4e6d2ddc04ebee
+Shutdown this notebook server (y/[n])? y
+[C 15:15:07.972 NotebookApp] Shutdown confirmed
+[I 15:15:07.974 NotebookApp] Shutting down 0 kernels
+pi@IoTBG:~$ 
 ~~~
