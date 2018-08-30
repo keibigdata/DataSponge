@@ -1,7 +1,9 @@
 ### 주피터 노트북 설치
 - 주피터 설치 : sudo pip3 install jupyter
-- 주피터 노트북 설정 : jupyter-notebook --generate-config
-  
+- 주피터 노트북 설정파일 생성 : jupyter-notebook --generate-config
+- 비밀번호 및 암호화 키 생성 :
+- 주피터 노트북 설정 :
+- 주피터 노트북 실정 : jupyter-notebook
 ~~~
 pi@IoTBG:~$ sudo pip3 install jupyter
 Collecting jupyter
@@ -167,5 +169,7 @@ pi@IoTBG:~/.jupyter$ vi /home/pi/.jupyter/jupyter_notebook_config.py
 c.NotebookApp.password = u'sha1:bf3435f747de:7a91a23d827fdd03641393ca5c9fb24a569f6ecc'
 ...
 c.NotebookApp.certfile = '/home/pi/.jupyter/jupyter.pem'
+...
+c.NotebookApp.ip = '0.0.0.0'
 ...
 ~~~
