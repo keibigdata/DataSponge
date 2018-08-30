@@ -1,6 +1,6 @@
 ## 사용자 정의 사전을 사용하는 방법
 - [customized KoNLPy](https://github.com/lovit/customized_konlpy)
-- Mecab : [사용자 사전 추가](https://bitbucket.org/eunjeon/mecab-ko-dic/src/ce04f82ab0083fb24e4e542e69d9e88a672c3325/final/user-dic/?at=master)
+- Mecab : [사용자 사전 추가](https://bitbucket.org/eunjeon/mecab-ko-dic/src/ce04f82ab0083fb24e4e542e69d9e88a672c3325/final/user-dic/?at=master), [mecab-ko-dic 소개](https://bitbucket.org/eunjeon/mecab-ko-dic)
   
 ### customized KoNLPy
 - 라이브러리 설치하고
