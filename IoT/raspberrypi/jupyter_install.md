@@ -175,12 +175,14 @@ c.NotebookApp.ip = '0.0.0.0'
 ...
 ~~~
 ~~~
-pi@IoTBG:~/.jupyter$ jupyter-notebook 
-[I 16:11:59.478 NotebookApp] Serving notebooks from local directory: /home/pi/.jupyter
-[I 16:11:59.478 NotebookApp] The Jupyter Notebook is running at:
-[I 16:11:59.478 NotebookApp] https://(IoTBG or 127.0.0.1):8888/
-[I 16:11:59.479 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 16:11:59.480 NotebookApp] No web browser found: could not locate runnable browser.
+pi@IoTBG:~/.jupyter$ cd ..
+pi@IoTBG:~$ jupyter-notebook 
+[I 16:17:00.163 NotebookApp] Serving notebooks from local directory: /home/pi
+[I 16:17:00.164 NotebookApp] The Jupyter Notebook is running at:
+[I 16:17:00.165 NotebookApp] https://(IoTBG or 127.0.0.1):8888/
+[I 16:17:00.166 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:17:00.168 NotebookApp] No web browser found: could not locate runnable browser.
+(아래는 참고 https로 접속하지 않을 때 오류 등)
 [W 16:13:22.025 NotebookApp] SSL Error on 8 ('[]', 7737): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
 [W 16:13:22.888 NotebookApp] SSL Error on 9 ('[]', 7738): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
 [W 16:13:22.898 NotebookApp] SSL Error on 8 ('[]', 7739): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
