@@ -3,7 +3,8 @@
 - 주피터 노트북 설정파일 생성 : jupyter-notebook --generate-config
 - 비밀번호 및 암호화 키 생성 :
 - 주피터 노트북 설정 :
-- 주피터 노트북 실정 : jupyter-notebook
+- 주피터 노트북 실행 : jupyter-notebook
+- 주피터 노트북 접속 : https://[주소]:8888/
 ~~~
 pi@IoTBG:~$ sudo pip3 install jupyter
 Collecting jupyter
