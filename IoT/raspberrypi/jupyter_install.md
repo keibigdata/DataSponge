@@ -173,3 +173,22 @@ c.NotebookApp.certfile = '/home/pi/.jupyter/jupyter.pem'
 c.NotebookApp.ip = '0.0.0.0'
 ...
 ~~~
+~~~
+pi@IoTBG:~/.jupyter$ jupyter-notebook 
+[I 16:11:59.478 NotebookApp] Serving notebooks from local directory: /home/pi/.jupyter
+[I 16:11:59.478 NotebookApp] The Jupyter Notebook is running at:
+[I 16:11:59.478 NotebookApp] https://(IoTBG or 127.0.0.1):8888/
+[I 16:11:59.479 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:11:59.480 NotebookApp] No web browser found: could not locate runnable browser.
+[W 16:13:22.025 NotebookApp] SSL Error on 8 ('[]', 7737): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
+[W 16:13:22.888 NotebookApp] SSL Error on 9 ('[]', 7738): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
+[W 16:13:22.898 NotebookApp] SSL Error on 8 ('[]', 7739): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
+[W 16:13:22.910 NotebookApp] SSL Error on 8 ('[]', 7740): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
+[W 16:13:27.933 NotebookApp] SSL Error on 8 ('[]', 7741): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
+[W 16:13:27.937 NotebookApp] SSL Error on 9 ('[]', 7742): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
+[W 16:13:27.948 NotebookApp] SSL Error on 8 ('[]', 7743): [SSL: HTTP_REQUEST] http request (_ssl.c:720)
+[I 16:13:33.294 NotebookApp] 302 GET / ([]) 5.08ms
+[I 16:13:33.307 NotebookApp] 302 GET /tree? ([]) 5.37ms
+[I 16:13:38.717 NotebookApp] 302 POST /login?next=%2Ftree%3F ([]) 9.30ms
+......
+~~~
