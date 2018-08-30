@@ -1,5 +1,7 @@
 ### 주피터 노트북 설치
 - 주피터 설치 : sudo pip3 install jupyter
+- 주피터 노트북 설정 : jupyter-notebook --generate-config
+  
 ~~~
 pi@IoTBG:~$ sudo pip3 install jupyter
 Collecting jupyter
@@ -122,5 +124,48 @@ http://localhost:8888/?token=87eeeabb0a650cf0add447af7730e30eec4e6d2ddc04ebee
 Shutdown this notebook server (y/[n])? y
 [C 15:15:07.972 NotebookApp] Shutdown confirmed
 [I 15:15:07.974 NotebookApp] Shutting down 0 kernels
-pi@IoTBG:~$ 
+~~~
+~~~
+pi@IoTBG:~$ jupyter-notebook --generate-config
+Writing default config to: /home/pi/.jupyter/jupyter_notebook_config.py
+pi@IoTBG:~$ ipython3
+Python 3.5.3 (default, Jan 19 2017, 14:11:04) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.5.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: from notebook.auth import passwd
+
+In [2]: passwd()
+Enter password: 
+Verify password: 
+Out[2]: 'sha1:bf3435f747de:7a91a23d827fdd03641393ca5c9fb24a569f6ecc'
+
+In [3]: quit()
+pi@IoTBG:~$ cd .jupyter/
+pi@IoTBG:~/.jupyter$ openssl req -x509 -nodes -days 365 -newkey rsa:1024 -keyout jupyter.pem -out jupyter.pem
+Generating a 1024 bit RSA private key
+.............................++++++
+.......................++++++
+writing new private key to 'jupyter.pem'
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:KR
+State or Province Name (full name) [Some-State]:Sejong
+Locality Name (eg, city) []:
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:KEI
+Organizational Unit Name (eg, section) []:BigData
+Common Name (e.g. server FQDN or YOUR name) []:IoT_BG
+Email Address []:dataq@kei.re.kr
+pi@IoTBG:~/.jupyter$ vi /home/pi/.jupyter/jupyter_notebook_config.py
+...
+c.NotebookApp.password = u'sha1:bf3435f747de:7a91a23d827fdd03641393ca5c9fb24a569f6ecc'
+...
+c.NotebookApp.certfile = '/home/pi/.jupyter/jupyter.pem'
+...
 ~~~
