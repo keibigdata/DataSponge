@@ -1,5 +1,9 @@
 ## NLP(Natural Language Processing)  
     
+###
+- [Lemmatization: Stemming과의 차이](http://4four.us/article/2008/05/lemmatization)
+
+
 ### 워드클라우드  
 - [파이썬 뉴스 텍스트 워드 클라우드](https://financedata.github.io/posts/python_news_cloud_text.html)  
 
