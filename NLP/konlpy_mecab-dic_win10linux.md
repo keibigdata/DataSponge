@@ -101,3 +101,58 @@ configure: creating ./config.status
 config.status: creating Makefile
 pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$
 ~~~
+
+~~~
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$ make
+/usr/local/libexec/mecab/mecab-dict-index -d . -o . -f UTF-8 -t UTF-8
+reading ./unk.def ... 13
+emitting double-array: 100% |###########################################|
+reading ./CoinedWord.csv ... 148
+reading ./EC.csv ... 2547
+reading ./EF.csv ... 1820
+reading ./EP.csv ... 51
+reading ./ETM.csv ... 133
+reading ./ETN.csv ... 14
+reading ./Foreign.csv ... 11690
+reading ./Group.csv ... 3176
+reading ./Hanja.csv ... 125750
+reading ./IC.csv ... 1305
+reading ./Inflect.csv ... 44820
+reading ./J.csv ... 416
+reading ./MAG.csv ... 14242
+reading ./MAJ.csv ... 240
+reading ./MM.csv ... 453
+reading ./NNB.csv ... 140
+reading ./NNBC.csv ... 677
+reading ./NNG.csv ... 208524
+reading ./NNP.csv ... 2371
+reading ./NorthKorea.csv ... 3
+reading ./NP.csv ... 342
+reading ./NR.csv ... 482
+reading ./Person-actor.csv ... 99230
+reading ./Person.csv ... 196459
+reading ./Place-address.csv ... 19301
+reading ./Place-station.csv ... 1145
+reading ./Place.csv ... 30303
+reading ./Preanalysis.csv ... 5
+reading ./Symbol.csv ... 16
+reading ./VA.csv ... 2360
+reading ./VCN.csv ... 7
+reading ./VCP.csv ... 9
+reading ./VV.csv ... 7331
+reading ./VX.csv ... 125
+reading ./Wikipedia.csv ... 36762
+reading ./XPN.csv ... 83
+reading ./XR.csv ... 3637
+reading ./XSA.csv ... 19
+reading ./XSN.csv ... 124
+reading ./XSV.csv ... 23
+emitting double-array: 100% |###########################################|
+reading ./matrix.def ... 3822x2693
+emitting matrix      : 100% |###########################################|
+
+done!
+echo To enable dictionary, rewrite /usr/local/etc/mecabrc as \"dicdir = /usr/local/lib/mecab/dic/mecab-ko-dic\"
+To enable dictionary, rewrite /usr/local/etc/mecabrc as "dicdir = /usr/local/lib/mecab/dic/mecab-ko-dic"
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$
+~~~
