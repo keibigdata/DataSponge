@@ -11,7 +11,7 @@ Successfully installed pdfminer.six-20170720
 
 (base) E:\>
 ~~~
-- pdfminer.six 설치
+- pdfminer.six 삭제
 ~~~
 (base) E:\>pip uninstall pdfminer.six
 Uninstalling pdfminer.six-20170720:
