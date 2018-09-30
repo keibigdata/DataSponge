@@ -168,3 +168,35 @@ make[1]: Leaving directory '/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-2018
 pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$ sudo ldconfig
 pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$
 ~~~
+
+~~~
+pi@HappyHome:/mnt/e/Data/win10linux/mecab$ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
+Cloning into 'mecab-python-0.996'...
+remote: Counting objects: 17, done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 17 (delta 3), reused 0 (delta 0)
+Unpacking objects: 100% (17/17), done.
+Checking connectivity... done.
+pi@HappyHome:/mnt/e/Data/win10linux/mecab$ cd mecab-python-0.996
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-python-0.996$ python setup.py build
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+copying MeCab.py -> build/lib.linux-x86_64-2.7
+running build_ext
+building '_MeCab' extension
+creating build/temp.linux-x86_64-2.7
+x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -fno-strict-aliasing -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -fPIC -I/usr/local/include -I/usr/include/python2.7 -c MeCab_wrap.cxx -o build/temp.linux-x86_64-2.7/MeCab_wrap.o
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+c++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wl,-Bsymbolic-functions -Wl,-z,relro -Wdate-time -D_FORTIFY_SOURCE=2 -g -fstack-protector-strong -Wformat -Werror=format-security build/temp.linux-x86_64-2.7/MeCab_wrap.o -L/usr/local/lib -lmecab -lstdc++ -o build/lib.linux-x86_64-2.7/_MeCab.so
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-python-0.996$ python setup.py install
+running install
+running build
+running build_py
+running build_ext
+running install_lib
+copying build/lib.linux-x86_64-2.7/MeCab.py -> /usr/local/lib/python2.7/dist-packages
+error: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/MeCab.py'
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-python-0.996$
+~~~
