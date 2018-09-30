@@ -156,3 +156,15 @@ echo To enable dictionary, rewrite /usr/local/etc/mecabrc as \"dicdir = /usr/loc
 To enable dictionary, rewrite /usr/local/etc/mecabrc as "dicdir = /usr/local/lib/mecab/dic/mecab-ko-dic"
 pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$
 ~~~
+
+~~~
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$ sudo sh -c 'echo "dicdir=/usr/local/lib/mecab/dic/mecab-ko-dic" > /usr/local/etc/mecabrc'
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$ sudo make install
+make[1]: Entering directory '/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720'
+make[1]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/local/lib/mecab/dic/mecab-ko-dic" || /bin/mkdir -p "/usr/local/lib/mecab/dic/mecab-ko-dic"
+ /usr/bin/install -c -m 644 model.bin matrix.bin char.bin sys.dic unk.dic left-id.def right-id.def rewrite.def pos-id.def dicrc '/usr/local/lib/mecab/dic/mecab-ko-dic'
+make[1]: Leaving directory '/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720'
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$ sudo ldconfig
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$
+~~~
