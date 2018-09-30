@@ -82,3 +82,22 @@ mecab-ko-dic-2.1.1-20180720/XR.csv
 mecab-ko-dic-2.1.1-20180720/VCN.csv
 pi@HappyHome:/mnt/e/Data/win10linux/mecab$
 ~~~
+
+~~~
+pi@HappyHome:/mnt/e/Data/win10linux/mecab$ cd mecab-ko-dic-2.1.1-20180720/
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$ ./autogen.sh
+Looking in current directory for macros.
+main::scan_file() called too early to check prototype at /usr/local/bin/aclocal line 618.
+Useless use of /d modifier in transliteration operator at /usr/local/share/automake-1.11/Automake/Wrap.pm line 58.
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/\${ <-- HERE ([^ \t=:+{}]+)}/ at /usr/local/bin/automake line 4113.
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$ ./configure
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for mecab-config... /usr/local/bin/mecab-config
+configure: creating ./config.status
+config.status: creating Makefile
+pi@HappyHome:/mnt/e/Data/win10linux/mecab/mecab-ko-dic-2.1.1-20180720$
+~~~
