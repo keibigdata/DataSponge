@@ -41,3 +41,90 @@ You should consider upgrading via the 'python -m pip install --upgrade pip' comm
 
 (instagram) E:\+라이브러리\Instagram-API-python>python examples\test.py
 ~~~
+~~~
+(instagram) E:\+라이브러리\Instagram-API-python>conda install ipykernel
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.5.11
+  latest version: 4.6.7
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: E:\Program\Anaconda3\envs\instagram
+
+  added / updated specs:
+    - ipykernel
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    zeromq-4.3.1               |       h33f27b4_3        52.4 MB
+    decorator-4.3.2            |           py37_0          17 KB
+    jedi-0.13.3                |           py37_0         234 KB
+    sqlite-3.26.0              |       he774522_0         936 KB
+    jupyter_client-5.2.4       |           py37_0         203 KB
+    six-1.12.0                 |           py37_0          22 KB
+    ca-certificates-2019.1.23  |                0         158 KB
+    wheel-0.33.1               |           py37_0          57 KB
+    pyzmq-18.0.0               |   py37ha925a31_0         466 KB
+    certifi-2018.11.29         |           py37_0         146 KB
+    setuptools-40.8.0          |           py37_0         663 KB
+    colorama-0.4.1             |           py37_0          24 KB
+    ipython-7.3.0              |   py37h39e3cac_0         1.1 MB
+    openssl-1.1.1b             |       he774522_1         5.7 MB
+    python-dateutil-2.8.0      |           py37_0         281 KB
+    pip-19.0.3                 |           py37_0         1.8 MB
+    prompt_toolkit-2.0.9       |           py37_0         487 KB
+    python-3.7.2               |      h8c8aaf0_10        17.7 MB
+    pygments-2.3.1             |           py37_0         1.3 MB
+    parso-0.3.4                |           py37_0         121 KB
+    ------------------------------------------------------------
+                                           Total:        83.9 MB
+
+The following NEW packages will be INSTALLED:
+
+    backcall:         0.1.0-py37_0
+    ca-certificates:  2019.1.23-0
+    certifi:          2018.11.29-py37_0
+    colorama:         0.4.1-py37_0
+    decorator:        4.3.2-py37_0
+    ipykernel:        5.1.0-py37h39e3cac_0
+    ipython:          7.3.0-py37h39e3cac_0
+    ipython_genutils: 0.2.0-py37_0
+    jedi:             0.13.3-py37_0
+    jupyter_client:   5.2.4-py37_0
+    jupyter_core:     4.4.0-py37_0
+    libsodium:        1.0.16-h9d3ae62_0
+    openssl:          1.1.1b-he774522_1
+    parso:            0.3.4-py37_0
+    pickleshare:      0.7.5-py37_0
+    pip:              19.0.3-py37_0
+    prompt_toolkit:   2.0.9-py37_0
+    pygments:         2.3.1-py37_0
+    python:           3.7.2-h8c8aaf0_10
+    python-dateutil:  2.8.0-py37_0
+    pyzmq:            18.0.0-py37ha925a31_0
+    setuptools:       40.8.0-py37_0
+    six:              1.12.0-py37_0
+    sqlite:           3.26.0-he774522_0
+    tornado:          5.1.1-py37hfa6e2cd_0
+    traitlets:        4.3.2-py37_0
+    vc:               14.1-h0510ff6_4
+    vs2015_runtime:   14.15.26706-h3a45250_0
+    wcwidth:          0.1.7-py37_0
+    wheel:            0.33.1-py37_0
+    wincertstore:     0.2-py37_0
+    zeromq:           4.3.1-h33f27b4_3
+
+Proceed ([y]/n)?
+~~~
